@@ -81,6 +81,11 @@ ul.flex-container{
     border: 1px dotted black;
 }
 
+.col-single-image{
+    /* TEST */
+    background-color: green;
+}
+
 /* Common */
 .container{
     width: 70%;
@@ -102,6 +107,9 @@ a{
 
 section{
     /* TEST */
-    background-color: bisque;
     height: 600px;
+}
+
+section:nth-child(even){
+    background-color: #d3d3d3;
 }
