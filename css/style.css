@@ -88,9 +88,13 @@ ul.flex-container{
 
 /* Footer */
 
-footer>.container.flex-container{
-    padding: 10px;
-    padding-bottom: 30px;
+footer>.container.flex-container.first-footer{
+    padding: 10px 0px 30px 0px;
+}
+
+footer>.container.flex-container.second-footer{
+    margin-top: 30px;
+    
 }
 
 .left-column{
@@ -114,6 +118,33 @@ footer>.container.flex-container{
 
 .right-column.flex-container{
     justify-content: space-between;
+}
+
+.second-footer{
+    /* TEST */
+    background-color: aquamarine;
+    height: 30px;
+
+}
+
+.footer-column{
+    width: 100%;
+    /* TEST */
+    height: 50px;
+    align-items: center;
+}
+.footer-column-content{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* TEST */
+    height: 100%;
+}
+
+span{
+    /* TEST */
+    background-color: pink;
+    border: 1px dotted black;
 }
 
 /* Common */
